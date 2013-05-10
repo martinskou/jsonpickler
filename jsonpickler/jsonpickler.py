@@ -3,11 +3,10 @@ import datetime
 import json
 import logging
 
+
 log = logging.getLogger(__name__)
 log.setLevel(logging.DEBUG)
 log.addHandler(logging.NullHandler())
-
-__version__="0.1"
 
 
 class jpickleEncoder(json.JSONEncoder):
